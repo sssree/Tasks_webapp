@@ -1,0 +1,13 @@
+com/satya/example.class
+com/servlet/Taskservlet.class
+com/satya/Status.class
+com/satya/database.class
+com/satya/Task.class
+com/satya/TaskManager.class
+com/satya/Main.class
+com/satya/calculator.class
+com/satya/FileTaskRepository.class
+com/satya/InMemoryRepository.class
+com/satya/examplel.class
+com/satya/TaskList.class
+com/satya/FileRepository.class
