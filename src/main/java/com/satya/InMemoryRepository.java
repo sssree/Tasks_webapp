@@ -8,8 +8,6 @@ public class InMemoryRepository {
 
         List<Task> alist = new ArrayList<>();
 
-    public static void updateByStatus(int newid, Status newStatus) {
-    }
     //return alist;
 
 

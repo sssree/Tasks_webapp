@@ -11,7 +11,7 @@ public class examplel {
        // InMemoryRepository repository=new InMemoryRepository();
 
         System.out.println("choose one option");
-        System.out.println("1.Add 2.list 3.search 4.delete 5. filter 6.exit");
+        System.out.println("1.Add 2.list 3.search 4.delete 5. filter 6.exit 7.Updatebystatus");
         Scanner sc = new Scanner(System.in);
 
         while (true) {

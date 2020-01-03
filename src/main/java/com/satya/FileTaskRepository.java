@@ -79,5 +79,10 @@ public class FileTaskRepository implements FileRepository {
         return null;
     }
 
+    @Override
+    public void updateByStatus(int newid, Status newStatus) {
+
+    }
+
 
 }

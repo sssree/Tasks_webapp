@@ -153,8 +153,9 @@ public class database  implements FileRepository {
     @Override
     public void updateByStatus(int newid, Status newStatus) {
         try {
-            String q = " update task set status ='" + newStatus + "'where id='"+newid;
-            String rs = String.valueOf(statement.executeUpdate(q));
+            String q = " update task set status ='" + newStatus + "'where taskId='"+newid+"'";
+            statement.executeUpdate(q);
+            System.out.println("Updated");
         } catch (SQLException e) {
             e.printStackTrace();
         }
