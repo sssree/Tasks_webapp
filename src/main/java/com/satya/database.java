@@ -155,7 +155,7 @@ public class database  implements FileRepository {
         try {
             String q = " update task set status ='" + newStatus + "'where taskId='"+newid+"'";
             statement.executeUpdate(q);
-            System.out.println("Updated");
+            System.out.println("Updated query");
         } catch (SQLException e) {
             e.printStackTrace();
         }
